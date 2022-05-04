@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.App > div > img {
+  width: 800px;
+  height: 800px;
+  border: 1px solid red;
+  box-shadow: 15px 0px 10px red;
+  object-fit: cover;
+}
+
+.videoPlayer {
+  width: 800px;
+  height: 800px;
+  border: 1px solid lightblue;
+  box-shadow: 15px 3px 10px lightblue;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -9,7 +25,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
   }
 }
 
